@@ -76,8 +76,6 @@ Check Logs:
 
 You can view the logs of the service using journalctl:
 
-bash
-Copy code
 journalctl -u file_automation.service -f
  OR
  you can check file_automation_log.txt 
