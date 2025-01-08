@@ -55,9 +55,11 @@ Replace /path/to/your/shell.nix and /path/to/your/main.py with the actual paths 
 b. Reload systemd and Enable the Service:
 After saving the file, you need to reload the systemd configuration and enable the service so it starts automatically on boot:
 
-`sudo systemctl daemon-reload`
-`sudo systemctl enable file_automation.service`
-`sudo systemctl start file_automation.service`
+```
+sudo systemctl daemon-reload
+sudo systemctl enable file_automation.service
+sudo systemctl start file_automation.service
+```
 This will:
 
 Reload the systemd manager.
